@@ -40,7 +40,7 @@ const Home = ({ data: gqlData }) => {
               title={inventory[2].name}
               link={slugify(inventory[2].name)}
             />
-            <Footer designer="Jay vd Walt" />
+            <Footer designer="Gatsbify.team" />
           </div>
           <div className="flex flex-1 justify-center items-center relative">
             <Showcase imageSrc={inventory[2].image} />
